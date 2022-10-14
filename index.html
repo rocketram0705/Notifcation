@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="fontfamily.css">
+  <link rel="stylesheet" href="main.css">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="mainContainer">
+  <div class="info">
+    <div class="bio">
+    <img src="images/image-jeremy.png" alt="">
+    <label for="" class="fs-medium-lbl fw300">Report for</label>
+    <label for="" class="fs-big-lbl fw300">Jeremy Robson</label>
+    </div>
+    <div class="duration">
+      <label for="" class="fs-medium-lbl fw300" >Daily</label>
+      <label for="" class="fs-medium-lbl fw300" >Weekly</label>
+      <label for="" class="fs-medium-lbl fw300">Monthly</label>
+    </div>
+  </div>
+  <div class="activityContainer Work" tabindex="0">
+    <img class="images" src="images/icon-work.svg" alt="">
+    <div class="activitylog">
+      <label for="" class="fs-medium-lbl fw500">Work</label>
+      <!-- daily -->
+      <svg class="ellipsis" class="example" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"/></svg>
+      <label for="" class="fs-big-lbl fw400">5hrs</label>
+      <!-- daily -->
+      <label for="" class="fs-medium-lbl fw500">Previous - 7hrs</label>
+      <!-- weekly -->
+      <label for="" class="fs-big-lbl fw400 hide">32hrs</label>
+      <!-- weekly -->
+      <label for="" class="fs-medium-lbl fw500 hide">Previous - 36hrs</label>
+      <!-- monthly -->
+      <label for="" class="fs-big-lbl fw400 hide">103hrs</label>
+      <!-- monthly -->
+      <label for="" class="fs-medium-lbl fw500 hide">Previous - 128hrs</label>
+    </div>
+  </div>
+  <div class="activityContainer Play" tabindex="0">
+    <img class="images" src="images/icon-play.svg" alt="">
+    <div class="activitylog">
+      <label for="" class="fs-medium-lbl fw500">Play</label>
+      <svg class="ellipsis"width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"/></svg>
+      <!-- daily -->
+      <label for="" class="fs-big-lbl fw400">5hrs</label>
+      <!-- daily -->
+      <label for="" class="fs-medium-lbl fw500">Previous - 7hrs</label>
+      <!-- weekly -->
+      <label for="" class="fs-big-lbl fw400 hide">32hrs</label>
+      <!-- weekly -->
+      <label for="" class="fs-medium-lbl fw500 hide">Previous - 36hrs</label>
+      <!-- monthly -->
+      <label for="" class="fs-big-lbl fw400 hide">103hrs</label>
+      <!-- monthly -->
+      <label for="" class="fs-medium-lbl fw500 hide">Previous - 128hrs</label>
+    </div>
+  </div>
+  <div class="activityContainer Study" tabindex="0">
+    <img class="images"  src="images/icon-study.svg" alt="">
+    <div class="activitylog">
+      <label for="" class="fs-medium-lbl fw500">Study</label>
+      <svg class="ellipsis" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"/></svg>
+      <!-- daily -->
+      <label for="" class="fs-big-lbl fw400">5hrs</label>
+      <!-- daily -->
+      <label for="" class="fs-medium-lbl fw500">Previous - 7hrs</label>
+      <!-- weekly -->
+      <label for="" class="fs-big-lbl fw400 hide">32hrs</label>
+      <!-- weekly -->
+      <label for="" class="fs-medium-lbl fw500 hide">Previous - 36hrs</label>
+      <!-- monthly -->
+      <label for="" class="fs-big-lbl fw400 hide">103hrs</label>
+      <!-- monthly -->
+      <label for="" class="fs-medium-lbl fw500 hide">Previous - 128hrs</label>
+    </div>
+  </div>
+  <div class="activityContainer Excersise" tabindex="0">
+    <img class="images" src="images/icon-exercise.svg" alt="">
+    <div class="activitylog">
+      <label for="" class="fs-medium-lbl fw500">Excersise</label><svg class="ellipsis" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"/></svg>
+
+      <!-- daily -->
+      <label for="" class="fs-big-lbl fw400">5hrs</label>
+      <!-- daily -->
+      <label for="" class="fs-medium-lbl fw500">Previous - 7hrs</label>
+      <!-- weekly -->
+      <label for="" class="fs-big-lbl fw400 hide">32hrs</label>
+      <!-- weekly -->
+      <label for="" class="fs-medium-lbl fw500 hide">Previous - 36hrs</label>
+      <!-- monthly -->
+      <label for="" class="fs-big-lbl fw400 hide">103hrs</label>
+      <!-- monthly -->
+      <label for="" class="fs-medium-lbl fw500 hide">Previous - 128hrs</label>
+    </div>
+  </div>
+  <div class="activityContainer Social" tabindex="0">
+    <img class="images" src="images/icon-social.svg" alt="">
+    <div class="activitylog">
+      <label for="" class="fs-medium-lbl fw500">Social</label><svg  class="ellipsis" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"/></svg>
+      <!-- daily -->
+      <label for="" class="fs-big-lbl fw400">5hrs</label>
+      <!-- daily -->
+      <label for="" class="fs-medium-lbl fw500">Previous - 7hrs</label>
+      <!-- weekly -->
+      <label for="" class="fs-big-lbl fw400 hide">32hrs</label>
+      <!-- weekly -->
+      <label for="" class="fs-medium-lbl fw500 hide">Previous - 36hrs</label>
+      <!-- monthly -->
+      <label for="" class="fs-big-lbl fw400 hide">103hrs</label>
+      <!-- monthly -->
+      <label for="" class="fs-medium-lbl fw500 hide">Previous - 128hrs</label>
+    </div>
+  </div>
+  <div class="activityContainer SelfCare" tabindex="0">
+    <img class="images" src="images/icon-self-care.svg" alt="">
+    <div class="activitylog">
+      <label for="" class="fs-medium-lbl fw500">Self Care</label>
+      <svg class="ellipsis" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"/></svg>
+      <!-- daily -->
+      <label for="" class="fs-big-lbl fw400">5hrs</label>
+      <!-- daily -->
+      <label for="" class="fs-medium-lbl fw500">Previous - 7hrs</label>
+      <!-- weekly -->
+      <label for="" class="fs-big-lbl fw400 hide">32hrs</label>
+      <!-- weekly -->
+      <label for="" class="fs-medium-lbl fw500 hide">Previous - 36hrs</label>
+      <!-- monthly -->
+      <label for="" class="fs-big-lbl fw400 hide">103hrs</label>
+      <!-- monthly -->
+      <label for="" class="fs-medium-lbl fw500 hide">Previous - 128hrs</label>
+    </div>
+  </div>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
